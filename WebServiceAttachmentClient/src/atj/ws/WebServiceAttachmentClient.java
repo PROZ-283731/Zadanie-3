@@ -7,6 +7,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Scanner;
 
+/**
+ * Class of a WebServiceAttachment service client
+ * @author Michał Dziewulski (M.Dziewulski@stud.elka.pw.edu.pl)
+ * @version 1.0
+ */
 public class WebServiceAttachmentClient {
   public static void main(String[] args) {
     Attachment attachment = (new AttachmentService()).getAttachmentPort();
