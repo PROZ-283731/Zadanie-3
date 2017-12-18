@@ -19,7 +19,7 @@ public class WebServiceAttachmentClient {
     System.out.println("Enter a number: ");
     int n = reader.nextInt();
     System.out.println("Enter a filename: ");
-    String fn = reader.nextLine();
+    String fn = reader.next();
     byte[] data;
     
     try {
